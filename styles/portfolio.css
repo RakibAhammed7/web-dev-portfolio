@@ -14,6 +14,7 @@ background-repeat: no-repeat;
 background-position: top left, bottom right;
 
 }
+.banner{
  display: flex;
  align-items: center;
  justify-content: space-between;
@@ -74,6 +75,25 @@ nav ul {
     color: #474747;
 }
 
+.section-title
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.text-center { 
+    text-align: center;
+}
+
+.section-description { 
+    font-size: 18px;
+    color: #181818;
+}
+.sec-bg { 
+    background-color: #FFF8F3;
+
+}
 .banner-greetings {
     font-size: 45px;
     font-weight: 600;
@@ -92,4 +112,57 @@ nav ul {
 
 .banner-profile {
     width: 580px;
+}
+
+/* Main */
+main { 
+max-width: 1140px;
+margin: 0 auto;
+}
+main section { 
+margin-top: 130px;
+margin-bottom: 130px;
+}
+
+
+/* About */
+
+
+.about { 
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.item-title{}
+  
+.about-items { 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+  
+  
+
+
+.item-description {
+    font-weight: bold;
+}
+
+/* what i do section */
+
+
+/* Skills */
+
+.skills-container { 
+    display: flex;
+    gap: 24px;
+   
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
 }
